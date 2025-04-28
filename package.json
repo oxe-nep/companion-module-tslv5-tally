@@ -19,5 +19,5 @@
 		"@companion-module/tools": "^2.3.0",
 		"prettier": "^3.5.3"
 	},
-	"prettier": "@companion-module/tools/.prettierrc.json",
+	"prettier": "@companion-module/tools/.prettierrc.json"
 }
