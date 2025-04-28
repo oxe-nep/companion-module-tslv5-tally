@@ -1,5 +1,5 @@
 {
-	"name": "your-module-name",
+	"name": "companion-module-tslv5-tally",
 	"version": "0.1.0",
 	"main": "main.js",
 	"scripts": {
@@ -9,10 +9,11 @@
 	"license": "MIT",
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/bitfocus/companion-module-your-module-name.git"
+		"url": "git+https://github.com/oxe-nep/companion-module-tslv5-tally.git"
 	},
 	"dependencies": {
-		"@companion-module/base": "~1.11.3"
+		"@companion-module/base": "~1.11.3",
+		"tsl-umd-v5": "^1.0.6"
 	},
 	"devDependencies": {
 		"@companion-module/tools": "^2.3.0",

@@ -1,26 +1,26 @@
 {
-	"id": "your-module-name",
-	"name": "your-module-name",
-	"shortname": "module-shortname",
-	"description": "A short one line description of your module",
-	"version": "0.0.0",
+	"id": "tslv5tally",
+	"name": "TSL V5 Tally",
+	"shortname": "tslv5tally",
+	"description": "Companion module for TSL V5 Tally system",
+	"version": "0.1.0",
 	"license": "MIT",
-	"repository": "git+https://github.com/bitfocus/companion-module-your-module-name.git",
-	"bugs": "https://github.com/bitfocus/companion-module-your-module-name/issues",
+	"repository": "git+https://github.com/oxe-nep/companion-module-tslv5-tally.git",
+	"bugs": "https://github.com/oxe-nep/companion-module-tslv5-tally/issues",
 	"maintainers": [
 		{
-			"name": "Your name",
-			"email": "Your email"
+			"name": "David Oxe",
+			"email": "doxe@nepgroup.com"
 		}
 	],
 	"runtime": {
-		"type": "node22",
+		"type": "node18",
 		"api": "nodejs-ipc",
 		"apiVersion": "0.0.0",
 		"entrypoint": "../main.js"
 	},
 	"legacyIds": [],
-	"manufacturer": "Your company",
-	"products": ["Your product"],
-	"keywords": []
+	"manufacturer": "TSL",
+	"products": ["V5 Tally"],
+	"keywords": ["tally", "tsl", "v5"]
 }
